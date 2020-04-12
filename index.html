@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="main.js"></script>
+    <title>Hotel Booking Management</title
+  </head>
+  <body onload="showSlides()">
+    <div class="main">
+      <div class="img"><img src="images.jfif" height=auto width=auto onclick="window.location.href='index.html'"></div>
+
+      <div class="hh"><h1 align="center">HOTEL BOOKING MANAGEMENT</h1></div>
+
+      <div class="lgn">
+        <button class="log1" onclick="window.location.href='login.html'">Log In/Sign Up</button>
+      </div>
+    </div>
+    <div class="panel">
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='index.html'">Home</button>
+        </div>
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='#ff'">CATEGORY</button>
+            <div class="drp_dnc">
+              <a style="white-space:nowrap;" class="l1" href="#" >Apartments</a>
+              <a style="white-space:nowrap;" class="l1" href="#">Resorts</a>
+              <a style="white-space:nowrap;" class="l1" href="#">Villas</a>
+              <a style="white-space:nowrap;" class="l1" href="#">Cabins</a>
+              <a style="white-space:nowrap;" class="l1" href="#">Cottages</a>
+              <a style="white-space:nowrap;" class="l1" href="#">Rooms</a>
+            </div>
+           </div>
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='#ff'"> HOTELS </button>
+            <div class="drp_dnc">
+              <a style="white-space:nowrap;" class="l1" href="#">5 Stars</a> 
+              <a style="white-space:nowrap;" class="l1" href="#">4 Stars </a>
+              <a style="white-space:nowrap;" class="l1" href="#">3 Stars </a>
+              <a style="white-space:nowrap;" class="l1" href="#">2 Stars </a>
+              <a style="white-space:nowrap;" class="l1" href="#">Unrated </a>
+              
+            </div>
+        </div>     
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='#footer'">Contact Us</button>
+        </div>   
+           
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="alert('Please first Log In into your account (if you are Registered) and Incase you are Not a Registered User, please register yourself first. Please press OK button to continue');alert('You will be redirecting to the Login and SignUp Page of this Website. Please press OK button to continue'); window.location.href='login.html';">My Account</button>
+        </div>
+      </div>  
+    
+       <div class="marquee1">
+    <br>
+    <marquee behaviour=scroll direction="left" scrollamount=10 ><h2>Welcome! Hotel Booking System</h2></marquee> 
+    
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="1.jpg" style="width:100%">
+        <div class="text">One of the best services around the globe</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="2.jpg" style="width:100%">
+        <div class="text">Easy Booking With only one click</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="3.jpg" style="width:100%">
+        <div class="text">Live your best moments with our Hotels</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="4.jpg" style="width:100%">
+        <div class="text">we care all the time </div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+      </div>
+
+
+    <form class="f1" id="ff">
+      <h3 class='head1'>Book Your hotel below</h3>
+      <br>
+      <h3>NAME: 
+      <!--<input type ="text" name="from" placeholder="From" id="from">-->
+        <input type="text" name="name" id="">
+      &emsp;&emsp;&emsp;&emsp;
+      </h3>
+      <h3>
+      Check in Date:
+      <input type="date" name="date" placeholder="Journey Date" id="j_date">
+      &emsp;&emsp;&emsp;&emsp;
+      Check out Date:
+      <input type="date" name="return date" placeholder="Return Date" id="r_date">
+      &emsp;&emsp;&emsp;&emsp;
+      </h3>
+      <h3>
+      No of Persons:
+      <input type="number" name="adult" id="adult" placeholder="Persons" min=0>
+      &emsp;&emsp;&emsp;&emsp;
+      <br><br>
+      </h3>
+      <br>
+      
+     <center><input type="button" value="Calulate Expense" onclick="alert('You have booked sucessfully Your total amount = 4999INR');" class="calexp"></center>
+
+    
+
+    </form>
+    
+    <hr class='mhr'>
+    <footer id="footer">
+      <h1>Contact Us</h1>
+      <hr align="center" width=10% class="hr1">
+      <br>
+     E-mail  :: Gkaushik@universalbookingsystem
+      <br><br>
+      Contact Numbers :: +91  8987123798 , 1234-1234-1234
+      <br><br>
+      &copy; 2020-21 G kaushik's Website
+      <br><br>
+      Developed By ::&emsp;
+      <a href="#"><img src="linkedin.png" width=50 height=auto class="icons"></a>
+      &emsp;
+      <a href="#"><img src="github.png" width=50 height=auto class="icons"></a>
+      &emsp;
+      <a href="#"><img src="twitter.webp"  width="50" height="auto" class="icons"></a>
+    </footer>
+
+
+  </body>
